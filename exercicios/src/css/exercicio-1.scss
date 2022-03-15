@@ -1,0 +1,19 @@
+// Utilizando !important para mostrar o que alterei no bootstrap
+
+.btn-primary{
+  background-color: white !important;
+  border: solid !important;
+  border-color: aquamarine !important;
+  color: black !important;
+}
+
+.btn-primary:focus {
+  background-color: aquamarine !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.btn-primary:hover {
+  background-color: aquamarine !important;
+  color: white !important;
+}
